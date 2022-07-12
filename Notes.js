@@ -87,9 +87,37 @@
  *  - tsc --init
  * 
  * 
+ * //Tuples :  key and value
+ * 
+ * - Tuples are useful when we have only two values (key, value pair);
+ * - let user:[number,string] =[1,"Sachin"];
+ * 
+ * //Enums :  (enumerated types)
+ * 
+ * - Data structures of constant length that hold a set of constant values.
+ * - Using an enum we can represent the list of related constant.
+ * - Enums are useful when setting properties or values that can only be a certain number of possible values
+ * - enum Size {Small=1,Medium,Large}
+ * - let mySize:Size= Size.Medium
+ * 
+ * //functions :
+ * 
+ * - In TypeScript functions can have return type.
+ * - e.g 
+ *  function calculateTax(income:number):void{
+             return ;
+       }
  * 
  * 
+ * //Objects :  
  * 
+ * - Object must have fix numbers of elements and their types declared.
+ * let employee:{readonly id:number,name:string}={
+    id:101,
+    name:"Nitin"
+}; 
+ * 
+ * - readonly // only read and cannot modify.
  * 
  * 
  * 
